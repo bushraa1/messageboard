@@ -25,7 +25,7 @@ I have done this application for basic job application for a react-native projec
 - Clone this project
 
 ```
-git clone < project-url.git >
+git clone <project-url.git>
 ```
 
 - [Install NodeJS](https://nodejs.org/en/) on your computer.
@@ -48,12 +48,12 @@ yarn global add react-native-cli
 
 - Launch a virtual android device [(through _Android Studio_ for instance)](https://developer.android.com/studio/run/managing-avds.html#viewing)
 
-> If you have never installed any android virtual device, [follow those instructions](https://developer.android.com/studio/run/managing-avds.html#createavd)
+> If you have never installed any android virtual device
 
 - Then, run the project in executing on your project folder:
 
 ```
-react-native run-android
+npx react-native run-android
 ```
 
 ### Dont Forget to Run the Backend!
@@ -72,8 +72,4 @@ react-native run-android
 
   > This command will look into the _package.json_ file and install all the dependencies listed here.
 
-- Install express-js globally on your computer
-
-```
-yarn global add react-native-cli
-```
+- Then run the app using the following command node server.js
