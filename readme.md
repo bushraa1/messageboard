@@ -68,8 +68,18 @@ npx react-native run-android
 
 > Sequelize is a SQL wrapper for JavaScript apps.
 
-- Launch `yarn` command in a terminal opened in the project folder.
+- Launch `npm install` command in a terminal opened in the project folder.
 
   > This command will look into the _package.json_ file and install all the dependencies listed here.
 
 - Then run the app using the following command node server.js
+
+> To Set Network IP Constant
+- Open Terminal
+- Write Command ipconfig /all
+- IPv4 Address copy
+- Paste in following location messageboard/app/utils/constants.js
+
+
+
+
